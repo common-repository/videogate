@@ -1,0 +1,130 @@
+.videogate-container{
+	width:1140px;
+	margin:0 auto;
+}
+.videogate-row{
+	margin-left:-15px;
+	margin-right:-15px;
+}
+.videogate-clearfix{}
+.videogate-clearfix:before,
+.videogate-clearfix:after{
+	clear:both;
+	content:"";
+	box-sizing: border-box;
+	display: block;
+}
+[class^="videogate-col-"]{
+	float:left;
+	padding-left:15px;
+	padding-right:15px;
+}
+.videogate-col-1{
+	width:100%;
+}
+.videogate-col-2{
+	width:50%;
+}
+.videogate-col-3{
+	width:33.3333%;
+}
+.videogate-col-4{
+	width:25%;
+}
+.videogate-col-5{
+	width:20%;
+}
+.videogate-col-6{
+	width:16.6666%;
+}
+
+
+/* grid modal */
+.videogate-grid-modal{
+	width: 100%;
+	position: relative;
+}
+
+.videogate-item-holder{
+	position:relative;
+	width: 100%;
+	box-shadow:3px 5px 8px rgba(0,0,0,0.2);
+	border-radius:6px;
+	overflow:hidden;
+	background: #181818;
+}
+
+.videogate-grid-modal-holder{
+	
+}
+.plyr__video-embed iframe {
+top: -50%;
+height: 200%;
+}
+.grid-button-panel{
+	padding:15px;
+}
+.grid-buttons-left{
+	float:left;
+}
+.grid-buttons-right{
+	float:right;
+}
+.grid-buttons-left a,
+.grid-buttons-right a{
+	display:inline-block;
+	width:42px;
+	height:42px;
+	border-radius:50%;
+	border:2px solid rgba(255,255,255,0.5);
+	text-align:center;
+	vertical-align:middle;
+}
+.grid-button-panel a.videogate-play-button{
+	background:#fff;
+	border:2px solid rgba(255,255,255,1);
+	margin-right:10px;
+}
+.grid-video-info{
+	display:flex;
+	padding:0 15px 5px;
+}
+.grid-video-info .videogate-video-maturity-ratting{
+	color:#fff;
+	display:inline-block;
+	border:1px solid #fff;
+	padding:2px 5px;
+	line-height: 1;
+	font-size: 14px;
+}
+.grid-video-info .videogate-video-quality{
+	color:#fff;
+	display:inline-block;
+	border:1px solid #fff;
+	padding:2px 5px;
+	margin-left:5px;
+	line-height: 1;
+	font-size: 14px;
+}
+.grid-video-info .videogate-video-type{
+	color:#fff;
+	margin-left:10px;
+	font-size: 14px;
+}
+.grid-video-genres-wrapper{
+	padding:0 15px 15px;
+}
+.grid-video-genres-wrapper .videogate-video-genres{
+	color:#fff;
+	font-size: 14px;
+	display:inline-block;
+	margin-right:5px;
+}
+.grid-video-genres-wrapper .videogate-video-genres:before{
+	content:".";
+	display:inline-block;
+	margin-right:5px;
+	vertical-align: top;
+	line-height: 12px;
+	font-size: 24px;
+}

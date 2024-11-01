@@ -1,0 +1,19 @@
+.videogate-metabox{
+	margin-top:15px;
+}
+.videogate-metabox label{
+	display:block;
+	color:#444;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.videogate-metabox input{
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    min-height: 32px;
+    padding: 0 15px;
+}
+.videogate-metabox select{
+	width:100%;
+}
